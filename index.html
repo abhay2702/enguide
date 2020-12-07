@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            #more {display: none;}
+            </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width , initial scale=1.0">
+        
+    
+        <title>ENGUIDE</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body onload="showAlert()">
+        <header>
+            
+            <nav>
+                <div class="row clearfix">
+                    <img src="D:/Enguide/Enguide_Project/Assets/images/logo.png" class="logo">
+                    <ul class="main-nav" id="check-class" >
+                        <li><a href="D:/Enguide/Enguide_Project/contact.html" style="font-weight: bold;">Contact us</a></li>
+                        <li><a href="D:/Enguide/Enguide_Project/aboutus.html" style="font-weight: bold">About us</a></li>
+                        <li><a href="D:/Enguide/Enguide_Project/vision.html" style="font-weight: bold">Vision</a></li>
+                        <li><a href="D:/Enguide/Enguide_Project/feedback.html" style="font-weight: bold">Feedback</a></li>
+                         
+                    </ul>
+                    <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            
+                </div>
+                <div class="menu"></div>
+            </nav>
+           <div class="main-content-header">
+            <h1><span class= "colorchange">ENGUIDE.</span></h1>
+           
+<p>Welcome to the one stop location to all your problems buding ENGINEERS<br>
+   Learn from the experienced
+
+   <div class="container">
+    
+   
+    <button type="button" id=myButton class="btn btn-default">
+        Start Learning
+    </button>
+         
+  </div>
+            
+        </header> 
+        <script type="text/javascript">
+        function showAlert() {
+    var myText = "This website is only for First Year Engineering Students!";
+    alert (myText);
+  }
+   
+  function slideshow(){
+  var x = document.getElementById('check-class');
+  if(x.style.display === "none"){
+    x.style.display="block";
+  }else{
+     x.style.display="none";
+  }
+}
+
+          document.getElementById("myButton").onclick = function () {
+        location.href = "D:/Enguide/Enguide_Project/index1.html";
+    };
+        </script>
+    </body>
+</html>

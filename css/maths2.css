@@ -1,0 +1,21 @@
+.jumbo{
+    /* background-image: url('../images/image.jpg'); */
+    background: url("D:/Enguide/Enguide_Project/Assets/images/maths2.jpeg") no-repeat center center;
+    /* background-image: url('../images/bg4.jpg') ; */
+    background-size: cover;
+    color:magenta;
+    font-family: 'Ubuntu';
+    image-resolution: 100%;
+}
+
+.col-sm-3{
+    font-family: 'Ubuntu';
+    font-size: larger;
+}
+.myAlert-bottom{
+    font-family: 'Ubuntu';
+    font-size: larger;
+  
+    
+
+}

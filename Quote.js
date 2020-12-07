@@ -1,0 +1,60 @@
+var quote=[
+    'The speed of light is generally rounded down to 186,000 miles per second. In exact terms it is 299,792,458 m/s (metres per second – that is equal to 186,287.49 miles per second)',
+    'It takes 8 minutes 17 seconds for light to travel from the Sun’s surface to the Earth.',
+    'Quasars emit more energy than 100 giant galaxies.',
+    '10 percent of all human beings ever born are alive at this very moment.',
+ 'October 12th, 1999 was declared “The Day of Six Billion” based on United Nations projections.',
+'The Earth spins at 1,000 mph but it travels through space at an incredible 67,000 mph.',
+' Every year over one million earthquakes shake the Earth.',
+'When Krakatoa erupted in 1883, its force was so great it could be heard 4,800 kilometres away in Australia.',
+ 'The largest ever hailstone weighed over 1kg and fell in Bangladesh in 1986.',
+'Every second around 100 lightning bolts strike the Earth.',
+'Every year lightning kills 1000 people.',
+'In October 1999 an Iceberg the size of London broke free from the Antarctic ice shelf .',
+'If you could drive your car straight up you would arrive in space in just over an hour',
+'Human tapeworms can grow up to 22.9m.',
+'The Earth is 4.56 billion years old…the same age as the Moon and the Sun.',
+'The dinosaurs became extinct before the Rockies or the Alps were formed.',
+'Female black widow spiders eat their males after mating.',
+'When a flea jumps, the rate of acceleration is 20 times that of the space shuttle during launch.',
+'If our Sun were just inch in diameter, the nearest star would be 445 miles away.',
+'The Australian billygoat plum contains 100 times more vitamin C than an orange.',
+'Astronauts cannot belch – there is no gravity to separate liquid from gas in their stomachs.',
+ 'The air at the summit of Mount Everest, 29,029 feet is only a third as thick as the air at sea level.',
+ 'One million, million, million, million, millionth of a second after the Big Bang the Universe was the size of a …pea.',
+'DNA was first discovered in 1869 by Swiss Friedrich Mieschler.',
+'The molecular structure of DNA was first determined by Watson and Crick in 1953.',
+'The first synthetic human chromosome was constructed by US scientists in 1997.',
+'The thermometer was invented in 1607 by Galileo.',
+'Englishman Roger Bacon invented the magnifying glass in 1250.',
+'Alfred Nobel invented dynamite in 1866.',
+'Wilhelm Rontgen won the first Nobel Prize for physics for discovering X-rays in 1895.',
+'The tallest tree ever was an Australian eucalyptus – In 1872 it was measured at 435 feet tall.',
+'Christian Barnard performed the first heart transplant in 1967 – the patient lived for 18 days.',
+'The wingspan of a Boeing 747 is longer than the Wright brother’s first flight',
+'An electric eel can produce a shock of up to 650 volts.',
+'‘Wireless’ communications took a giant leap forward in 1962 with the launch of Telstar, the first satellite capable of relaying telephone and satellite TV signals.',
+'he earliest wine makers lived in Egypt around 2300 BC.',
+'The Ebola virus kills 4 out of every 5 humans it infects.',
+'In 5 billion years the Sun will run out of fuel and turn into a Red Giant.',
+'Giraffes often sleep for only 20 minutes in any 24 hours. They may sleep up to 2 hours (in spurts – not all at once), but this is rare. They never lie down.',
+ 'Without its lining of mucus your stomach would digest itself.',
+'Humans have 46 chromosomes, peas have 14 and crayfish have 200.',
+'There are 60,000 miles of blood vessels in the human body.',
+'An individual blood cell takes about 60 seconds to make a complete circuit of the body.',
+'Utopia ia a large, smooth lying area of Mars.',
+'On the day that Alexander Graham Bell was buried the entire US telephone system was shut down for 1 minute in tribute.',
+'The low frequency call of the humpback whale is the loudest noise made by a living creature.',
+'The call of the humpback whale is louder than Concorde and can be heard from 500 miles away.',
+ 'A quarter of the world’s plants are threatened with extinction by the year 2010.',
+'Each person sheds 40lbs of skin in his or her lifetime.',
+'At 15 inches the eyes of giant squids are the largest on the planet.'
+
+
+]
+function newQuote(){
+    var randomNumber=Math.floor(Math.random()*(quote.length));
+    document.getElementById('quoteDisp').innerHTML=quote[randomNumber];
+
+}
+

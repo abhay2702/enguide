@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+     color: black; 
+    height: 100%;
+    background-color:gray;
+    font-family: 'Flamenco', cursive;
+}
+    
+header{
+    background-image: url('D:/Enguide/Enguide_Project/Assets/images/bg4.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;    
+}
+.clearfix::after{
+    content: ".";
+    visibility: visible;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+
+.row{
+    max-width: 1180px;
+    margin : auto;
+}
+
+.logo{
+    height: 180px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 50px;
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    font-style: bold;
+   
+
+}
+
+.main-nav li:hover{
+    border-bottom: 2px solid blueviolet;
+}
+
+.main-nav li a{
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 95%;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+    
+
+
+}
+.main-content-header{
+    width: 1180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+}
+
+h1{
+    color: darkslateblue;
+    font-size: 300%;
+    font-style: normal;
+    text-align: center;
+    font-family: 'Flamenco', cursive;
+}
+
+p{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Flamenco', cursive;
+}
+
+.container{
+    text-align: center;
+    font-size: xx-large;
+    font-style: normal;
+    font-style: bold;
+}
+.container button{
+    border: 2px;
+    font-weight: bold;
+}
+.container button:hover{
+    background-color: dodgerblue;
+}
+
+.colorchange{
+    animation: colorchangeENGUIDE 1s infinite;
+}
+
+@keyframes colorchangeENGUIDE{
+    0%{color: black;}
+    25%{color: blueviolet;}
+    50%{color: antiquewhite;}
+    100%{color: blueviolet;}
+}
+.mobile-icon{display: none;}
+
+/* responsive */
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .logo{height: 170px;}
+}
+
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+    p{font-size: 70%;}
+    .logo{height: 160px;}
+}
+@media only screen and (max-width: 778px){
+    h1{font-size: 190%;}
+    p{font-size: 60%;}
+    .logo{height: 150px;}
+
+    .main-nav{display: none;}
+
+    .mobile-icon{
+        display: inline-block;
+        color: antiquewhite;
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+
+    }
+
+    .main-nav{float: left;}
+
+    .main-nav li{
+       
+        display: block;
+        margin-top: 10px;
+
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h1{font-size: 180%;}
+    p{font-size: 50%;}
+    .btn-default{margin-bottom: 20px;}
+    .logo{height: 140px;}
+}
